@@ -1,6 +1,6 @@
 package com.example.proyectofinal.controller;
 
-import com.example.proyectofinal.entity.Fecha;
+import com.example.proyectofinal.model.Fecha;
 import com.example.proyectofinal.service.FechaServiceImpl;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

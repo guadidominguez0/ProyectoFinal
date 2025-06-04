@@ -1,6 +1,6 @@
 package com.example.proyectofinal.service;
 
-import com.example.proyectofinal.entity.Base;
+import com.example.proyectofinal.model.Base;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

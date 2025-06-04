@@ -1,6 +1,6 @@
 package com.example.proyectofinal.config;
 
-import com.example.proyectofinal.entity.audit.Revision;
+import com.example.proyectofinal.model.audit.Revision;
 import org.hibernate.envers.RevisionListener;
 
 public class CustomRevisionListener implements RevisionListener {

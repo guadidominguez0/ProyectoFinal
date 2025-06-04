@@ -1,6 +1,6 @@
 package com.example.proyectofinal.controller;
 
-import com.example.proyectofinal.entity.Piloto;
+import com.example.proyectofinal.model.Piloto;
 import com.example.proyectofinal.service.PilotoServiceImpl;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

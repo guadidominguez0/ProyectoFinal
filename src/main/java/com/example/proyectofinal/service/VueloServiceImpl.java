@@ -1,18 +1,18 @@
 package com.example.proyectofinal.service;
 
-import com.example.proyectofinal.entity.Vuelo;
+import com.example.proyectofinal.model.Vuelo;
 import com.example.proyectofinal.repository.BaseRepository;
-import com.example.proyectofinal.repository.RepositoryVuelo;
+import com.example.proyectofinal.repository.VueloRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class VueloServiceImpl extends BaseServiceImpl<Vuelo, Long> implements VueloService {
     @Autowired
-    private RepositoryVuelo repositoryVuelo;
+    private VueloRepository vueloRepository;
 
-    public VueloServiceImpl(BaseRepository<Vuelo, Long> baseRepository, RepositoryVuelo repositoryVuelo) {
+    public VueloServiceImpl(BaseRepository<Vuelo, Long> baseRepository, VueloRepository vueloRepository) {
         super(baseRepository);
-        this.repositoryVuelo = repositoryVuelo;
+        this.vueloRepository = vueloRepository;
     }
 }

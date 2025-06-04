@@ -1,6 +1,6 @@
 package com.example.proyectofinal.controller;
 
-import com.example.proyectofinal.entity.Ciudad;
+import com.example.proyectofinal.model.Ciudad;
 import com.example.proyectofinal.service.CiudadServiceImpl;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

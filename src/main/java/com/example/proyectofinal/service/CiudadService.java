@@ -1,6 +1,6 @@
 package com.example.proyectofinal.service;
 
-import com.example.proyectofinal.entity.Ciudad;
+import com.example.proyectofinal.model.Ciudad;
 
 public interface CiudadService extends BaseService<Ciudad, Long> {
 }

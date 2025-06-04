@@ -1,6 +1,6 @@
 package com.example.proyectofinal.controller;
 
-import com.example.proyectofinal.entity.Persona;
+import com.example.proyectofinal.model.Persona;
 import com.example.proyectofinal.service.PersonaServiceImpl;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

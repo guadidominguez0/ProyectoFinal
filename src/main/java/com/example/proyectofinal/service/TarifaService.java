@@ -1,6 +1,6 @@
 package com.example.proyectofinal.service;
 
-import com.example.proyectofinal.entity.Tarifa;
+import com.example.proyectofinal.model.Tarifa;
 
 public interface TarifaService extends BaseService<Tarifa, Long> {
 }
