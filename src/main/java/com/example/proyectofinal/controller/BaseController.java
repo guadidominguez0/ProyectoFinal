@@ -10,7 +10,6 @@ import java.io.Serializable;
 
 public interface BaseController<E extends Base, Id extends Serializable> {
     public ResponseEntity<?> getAll();
-    public ResponseEntity<?> getAll(Pageable pageable);
     public ResponseEntity<?> getOne(@PathVariable Id id);
     public ResponseEntity<?> save(@RequestBody E entity);
     public ResponseEntity<?> update(@PathVariable Id id, @RequestBody E entity);
